@@ -1,13 +1,13 @@
 const coffeeItems = require('./coffee_data.js')
 
-// //All of the drinks on the menu
-// const allDrinks = coffeeItems.map(coffee => coffee.name)
-// console.log(allDrinks)
+//All of the drinks on the menu
+const allDrinks = coffeeItems.map(coffee => coffee.name)
+console.log(allDrinks)
 
 
-// //All drinks less than and equal to 5
-// const cheapDrinks = coffeeItems.filter(coffee => coffee.price <=5 ? true : false)
-// console.log(cheapDrinks)
+//All drinks less than and equal to 5
+const cheapDrinks = coffeeItems.filter(coffee => coffee.price <=5 ? true : false)
+console.log(cheapDrinks)
 
 
 //Drinks with prices of even number
